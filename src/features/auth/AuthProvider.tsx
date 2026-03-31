@@ -1,5 +1,6 @@
 // src/features/auth/AuthProvider.tsx
-import { createContext, useContext, useState, ReactNode } from 'react';
+import { createContext, useContext, useState } from 'react';
+import type { ReactNode } from 'react';
 import { supabase } from '../../services/supabaseClient';
 
 interface AuthContextType {

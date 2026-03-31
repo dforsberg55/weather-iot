@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
 import { AuthProvider } from './features/auth/AuthProvider';
-import { Dashboard } from './features/dashboard/Dashboard';
+
 import { Devices } from './features/devices/Devices';
 import { Login } from './features/auth/Login';
 import { Signup } from './features/auth/Signup';
